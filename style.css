@@ -11,7 +11,7 @@ body {
 .build {
     border: 5px solid;
     height: 90vh;
-    width: 47.605vw;
+    width: 32vw;
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -35,21 +35,14 @@ body {
     border: 5px solid;
     float: left;
     display: flex;
-}
-
-.window:hover {
-    background-color: transparent;
-    transition: 0.5s;
-}
-
-.sit1,
-.sit2 {
-    width: 50%;
-    height: 100%;
-    border: 4px solid rgb(0, 0, 0);
+    background-color: black;
 }
 
 .big {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
     transition: 2s;
-    border: 20px solid;
 }
