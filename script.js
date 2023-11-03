@@ -1,22 +1,34 @@
+let sit1 = document.querySelector(".sit1")
+let sit2 = document.querySelector(".sit2")
+let img = document.querySelector("img")
+let big = document.querySelector(".big")
+
 function myFunc(targetDiv) {
     var divs = document.querySelectorAll("div");
 
-    // Check if the targetDiv has the 'big' class
     var hasBigClass = targetDiv.classList.contains("big");
 
-    // Iterate through all the div elements
     for (var i = 0; i < divs.length; i++) {
         var currentDiv = divs[i];
         if (currentDiv === targetDiv) {
-            // If the current div is the target div and it has the 'big' class, remove it
             if (hasBigClass) {
                 currentDiv.classList.remove("big");
+                sit1.remove();
+                sit2.remove();
+                img.style.width = "100%"
             } else {
-                // If the current div is the target div and it doesn't have the 'big' class, add it
                 currentDiv.classList.add("big");
+                sit1.style.height = "100%";
+                sit1.style.width = "25%";
+                sit1.style.left = "25%";
+                sit2.style.height = "100%";
+                sit2.style.left = "75%";
+                sit2.style.left = "50%";
+                sit2.style.width = "25%";
+                sit1.classList.add("sat");
+                sit2.classList.add("sot");
             }
         } else {
-            // If the current div is not the target div, remove the 'big' class
             currentDiv.classList.remove("big");
         }
     }
