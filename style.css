@@ -1,213 +1,19 @@
 * {
     box-sizing: border-box;
-    color: dodgerblue;
-}
-
-body {
-    padding: 0;
-    margin: 0;
 }
 
 .build {
-    border: 5px solid;
-    height: 90vh;
-    width: 32vw;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
-    margin-top: 40px;
-}
-
-.dor {
-    border: 5px solid;
-    width: 100px;
-    height: 100px;
-    bottom: 0;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
+    border: 5px solid dodgerblue;
+    width: 50vw;
+    height: 100vh;
+    margin: auto;
 }
 
 .window {
-    width: 100px;
-    height: 100px;
-    border: 5px solid;
+    width: 25%;
+    height: 16.7%;
+    border: 5px solid slateblue;
     float: left;
-    display: flex;
-    background-color: black;
-}
-
-.big {
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    left: -110%;
-    top: -12.5%;
-    z-index: 1;
-}
-
-.sit1 {
-    border: 3px solid rgb(255, 255, 255);
-    position: absolute;
-    width: 11.5%;
-    height: 17%;
-    background-color: black;
-}
-
-.sit2 {
-    border: 3px solid white;
-    position: absolute;
-    width: 11.5%;
-    height: 17%;
-    left: 13%;
-    background-color: black;
-}
-
-.sat {
-    transform: rotateY(180deg);
-    transform-origin: 0%;
-    /* transition: 1s; */
-}
-
-.sot {
-    transform: rotateY(180deg);
-    transform-origin: 100%;
-    /* transition: 1s; */
-}
-
-.sit3 {
-    border: 3px solid white;
-    position: absolute;
-    width: 11.5%;
-    height: 17%;
-    left: 37.9%;
-    background-color: black;
-}
-
-.sit4 {
-    border: 3px solid white;
-    position: absolute;
-    width: 11.5%;
-    height: 17%;
-    left: 63%;
-    background-color: black;
-}
-
-.sit5 {
-    border: 3px solid white;
-    position: absolute;
-    width: 11.5%;
-    height: 17%;
-    right: 0.6%;
-    background-color: black;
-}
-
-.sit6 {
-    border: 3px solid white;
-    position: absolute;
-    width: 11.5%;
-    height: 17%;
-    left: 13%;
-    background-color: black;
-}
-
-.sit7 {
-    border: 3px solid white;
-    position: absolute;
-    width: 11.5%;
-    height: 17%;
-    left: 37.9%;
-    background-color: black;
-}
-
-.sit8 {
-    border: 3px solid white;
-    position: absolute;
-    width: 11.5%;
-    height: 17%;
-    left: 63%;
-    background-color: black;
-}
-
-.sit9 {
-    border: 3px solid white;
-    position: absolute;
-    width: 11.5%;
-    height: 17%;
-    right: 0.6%;
-    background-color: black;
-}
-
-.sit10 {
-    border: 3px solid white;
-    position: absolute;
-    width: 11.5%;
-    height: 17%;
-    left: 13%;
-    background-color: black;
-}
-
-.sit11 {
-    border: 3px solid white;
-    position: absolute;
-    width: 11.5%;
-    height: 17%;
-    left: 37.9%;
-    background-color: black;
-}
-
-.sit12 {
-    border: 3px solid white;
-    position: absolute;
-    width: 11.5%;
-    height: 17%;
-    left: 63%;
-    background-color: black;
-}
-
-.sit13 {
-    border: 3px solid white;
-    position: absolute;
-    width: 11.5%;
-    height: 17%;
-    right: 0.6%;
-    background-color: black;
-}
-
-.sit14 {
-    border: 3px solid white;
-    position: absolute;
-    width: 11.5%;
-    height: 17%;
-    left: 13%;
-    background-color: black;
-}
-
-.sit15 {
-    border: 3px solid white;
-    position: absolute;
-    width: 11.5%;
-    height: 17%;
-    left: 37.9%;
-    background-color: black;
-}
-
-.sit16 {
-    border: 3px solid white;
-    position: absolute;
-    width: 11.5%;
-    height: 17%;
-    left: 63%;
-    background-color: black;
-}
-
-.sit17 {
-    border: 3px solid white;
-    position: absolute;
-    width: 11.5%;
-    height: 17%;
-    right: 0.6%;
-    background-color: black;
 }
 
 html,body{
@@ -215,13 +21,13 @@ html,body{
     padding: 0 0 0 0;
     width: 100%;
     height: 100%;
-    overflow: hidden;
 }
 #container{
     width: 100%;
     margin:0 auto;
     background-color: #000;
     min-height: 100%;
+    z-index: -1;
     position: absolute;
 }
 #city-wrap{
