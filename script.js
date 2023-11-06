@@ -1,8 +1,4 @@
 let wins = document.querySelectorAll('.window');
-let before = document.querySelector(".before");
-let after = document.querySelector(".after");
-let img = document.querySelectorAll('img')
-
 let activeWindows = [];
 
 function deletee(win) {
